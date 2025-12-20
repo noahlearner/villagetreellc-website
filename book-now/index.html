@@ -635,7 +635,7 @@ section.contact-us.inner h3 {
                                 </div>
                                 <div class="gfield gfield--width-third">
                                     <label class="gfield_label" for="service">Service</label>
-                                    <select name="service" id="service" class="large gfield_select" required>
+                                    <select name="service" id="service" class="large gfield_select">
                                         <option value="" selected>Select Service</option>
                                         <option value="Tree Removal">Tree Removal</option>
                                         <option value="Tree Trimming">Tree Trimming</option>
@@ -854,14 +854,6 @@ var shiftnav_data = {"shift_body":"off","shift_body_wrapper":"","lock_body":"on"
 									</div>
 			</div>
 		</nav>
-		<script>
-gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
-                        Placeholders.enable();
-                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
-</script>
-<script>
-gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [2, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 2, currentPage: 1 } });} );
-</script>
 </body>
 
 </html>
